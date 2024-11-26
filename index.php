@@ -1,17 +1,10 @@
 
 <?php
 include 'koneksi.php';
-session_start();
 
 // Cek apakah pengguna sudah login
 
     
-if (!isset($_SESSION['username'])) {
-    header("Location: login.php");
-    exit();
-}
-
-
 
 // Query untuk mengambil data dari tabel buletin
 $sql = "SELECT * FROM buletin ORDER BY id DESC";
