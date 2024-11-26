@@ -349,7 +349,6 @@ include 'format.php';
             <div class="portfolio-info">
                 <!-- Menampilkan judul dan deskripsi buletin -->
                 <h4>Buletin Edisi <?= format($data['tanggal']) ?></h4>
-                <p><?= format($data['tanggal']) ?></p>
                 
                 <!-- Tautan untuk melihat detail -->
                 <a href="uploads/<?= htmlspecialchars($data['gambar']) ?>" target="_blank" title="Lihat buletin" class="details-link">
