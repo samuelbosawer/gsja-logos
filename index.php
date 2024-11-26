@@ -341,10 +341,11 @@ include 'format.php';
             <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
   
             <?php foreach ($result as $data): ?>
-    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
+    <div class="col-lg-4 col-md-6 portfolio-item isotope-item  rounded border m-3">
         <div class="portfolio-content h-100">
             <!-- Menampilkan gambar dari data -->
-            <img src="uploads/<?= htmlspecialchars($data['gambar']) ?>" class="img-fluid" alt="Gambar Buletin">
+            <img src="uploads/<?= htmlspecialchars($data['gambar']) ?>" class="img-fluid p-3" alt="Gambar Buletin">
+            <p class="text-center">Buletin Edisi <?= format($data['tanggal']) ?></p>
             <div class="portfolio-info">
                 <!-- Menampilkan judul dan deskripsi buletin -->
                 <h4>Buletin Edisi <?= format($data['tanggal']) ?></h4>
