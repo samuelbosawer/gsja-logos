@@ -341,7 +341,7 @@ include 'format.php';
             <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
   
             <?php foreach ($result as $data): ?>
-    <div class="col-lg-4 col-md-6 portfolio-item isotope-item  rounded border m-3">
+    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling border m-3">
         <div class="portfolio-content h-100">
             <!-- Menampilkan gambar dari data -->
             <img src="uploads/<?= htmlspecialchars($data['gambar']) ?>" class="img-fluid p-3" alt="Gambar Buletin">
