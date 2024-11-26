@@ -1,3 +1,28 @@
+
+<?php
+include 'koneksi.php';
+session_start();
+
+// Cek apakah pengguna sudah login
+
+    
+if (!isset($_SESSION['username'])) {
+    header("Location: login.php");
+    exit();
+}
+
+
+
+// Query untuk mengambil data dari tabel buletin
+$sql = "SELECT * FROM buletin ORDER BY id DESC";
+$result = mysqli_query($conn, $sql);
+
+include 'format.php';
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -322,18 +347,26 @@
   
             <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
   
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
-                <div class="portfolio-content h-100">
-                  <img src="assets/img/buletin/test.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>Buletin Edisi </h4>
-                    <p>Buletin Edisi</p>
-                   
-                    <a href="#" title="Lihat buletin" class="details-link"><i class="bi bi-eye"></i></a>
-                  </div>
-                </div>
-              </div><!-- End Portfolio Item -->
-  
+            <?php foreach ($result as $data): ?>
+    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
+        <div class="portfolio-content h-100">
+            <!-- Menampilkan gambar dari data -->
+            <img src="uploads/<?= htmlspecialchars($data['gambar']) ?>" class="img-fluid" alt="Gambar Buletin">
+            <div class="portfolio-info">
+                <!-- Menampilkan judul dan deskripsi buletin -->
+                <h4>Buletin Edisi <?= format($data['tanggal']) ?></h4>
+                <p><?= format($data['tanggal']) ?></p>
+                
+                <!-- Tautan untuk melihat detail -->
+                <a href="uploads/<?= htmlspecialchars($data['gambar']) ?>" target="_blank" title="Lihat buletin" class="details-link">
+                    <i class="bi bi-eye"></i>
+                </a>
+            </div>
+        </div>
+    </div><!-- End Portfolio Item -->
+<?php endforeach; ?>
+
+          
            
   
             </div><!-- End Portfolio Container -->
@@ -449,7 +482,7 @@
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="samuelbosawer.github.io">Samuel Bosawer</a>
+         by <a href="samuelbosawer.github.io">Samuel Bosawer</a>
       </div>
     </div>
 
