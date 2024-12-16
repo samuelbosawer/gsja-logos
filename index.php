@@ -81,6 +81,7 @@ include 'format.php';
           <li><a href="#ibadah">IBADAH</a></li>
           <li><a href="#buletin">BULETIN</a></li>
           <li><a href="#kontak">KONTAK</a></li>
+          <li><a href="#blog">blog</a></li>
           <li><a href="galeri">GALERI</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -370,7 +371,55 @@ include 'format.php';
   
       </section><!-- /Projects Section -->
   
-    
+     <!-- Recent Blog Posts Section -->
+     <section id="blog" class="recent-blog-posts section">
+
+<!-- Section Title -->
+<div class="container section-title" data-aos="fade-up">
+  <h2>Blog</h2>
+  <p>Temukan renungan rohani, inspirasi iman, dan berita seputar kegiatan gereja di blog GSJA Logos Kotaraja. </p>
+</div><!-- End Section Title -->
+
+<div class="container">
+
+  <div class="row gy-5">
+
+    <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+      <div class="post-item position-relative h-100">
+
+        <div class="post-img position-relative overflow-hidden">
+          <img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt="">
+          <span class="post-date">12 Desember 2024</span>
+        </div>
+
+        <div class="post-content d-flex flex-column">
+
+          <h3 class="post-title">Perayaan Natal GSJA Logos Kotaraja</h3>
+
+          <div class="meta d-flex align-items-center">
+            <div class="d-flex align-items-center">
+              <i class="bi bi-person"></i> <span class="ps-2">Admin</span>
+            </div>
+            <span class="px-3 text-black-50">/</span>
+            <div class="d-flex align-items-center">
+              <i class="bi bi-folder2"></i> <span class="ps-2">Ibadah Natal</span>
+            </div>
+          </div>
+
+          <hr>
+
+          <a href="blog/perayaan-natal-gsja-logos-kotaraja-2024.php" class="readmore stretched-link"><span>Baca Selengkapnya</span><i class="bi bi-arrow-right"></i></a>
+
+        </div>
+
+      </div>
+    </div><!-- End post item -->
+
+  </div>
+
+</div>
+
+</section><!-- /Recent Blog Posts Section -->
   
 
 
