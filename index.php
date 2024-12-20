@@ -342,7 +342,7 @@ include 'format.php';
             <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
   
             <?php foreach ($result as $data): ?>
-    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling border m-3">
+    <div class="col-lg-4 col-md-4 portfolio-item isotope-item filter-remodeling border m-3">
         <div class="portfolio-content h-100">
             <!-- Menampilkan gambar dari data -->
             <img src="uploads/<?= htmlspecialchars($data['gambar']) ?>" class="img-fluid p-3" alt="Gambar Buletin">
@@ -388,7 +388,7 @@ include 'format.php';
       <div class="post-item position-relative h-100">
 
         <div class="post-img position-relative overflow-hidden">
-          <img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt="">
+          <img src="assets/img/blog/blog-1.png" class="img-fluid" alt="">
           <span class="post-date">12 Desember 2024</span>
         </div>
 
