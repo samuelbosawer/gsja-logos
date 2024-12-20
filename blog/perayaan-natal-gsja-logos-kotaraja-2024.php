@@ -79,11 +79,11 @@
     <!-- Page Title -->
     <div class="page-title dark-background" style="background-image: url(../assets/img/page-title-bg-natal.jpg);">
       <div class="container position-relative">
-        <h1>Blog Details</h1>
+        <h1>Blog</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="./index">Home</a></li>
-            <li class="current">Blog Details</li>
+            <li><a href="./index">Beranda</a></li>
+            <li class="current">Blog</li>
           </ol>
         </nav>
       </div>
