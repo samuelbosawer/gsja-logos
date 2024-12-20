@@ -100,8 +100,8 @@
 
               <article class="article">
 
-                <div class="post-img">
-                  <img src="../assets/img/blog/blog-1.png" alt="" class="" width="100%">
+                <div class="post-img text-center  mt-3">
+                  <img src="../assets/img/blog/blog-1.png" class="shadow rounded" alt="" class="" >
                 </div>
 
                 <h2 class="title">Perayaan Natal GSJA Logos Kotaraja 2024</h2>
@@ -131,7 +131,11 @@
                   <p>
                     Thema tahun ini, “Kembali ke Betlehem,” mengajak setiap jemaat untuk kembali mengarahkan hati pada makna sejati kelahiran Yesus. Betlehem merupakan simbol sederhana, tetapi memiliki arti mendalam sebagai tempat kelahiran Kristus yang membawa kasih dan pengharapan kepada umat manusia. Di tengah kesibukan dunia, perayaan Natal ini mengingatkan kita untuk kembali kepada dasar iman dengan kerendahan hati.
                   </p>
-                  <img src="../assets/img/blog/blog-inside-post.png" class="img-fluid" alt="">
+
+                  <div class="text-center">
+                    <img src="../assets/img/blog/blog-inside-post.png" class="img-fluid shadow rounded" alt="">
+
+                  </div>
 
                   <h3>Sub Thema yang Menguatkan Iman</h3>
                   <p>
@@ -149,16 +153,16 @@
                   <div class="container">
                     <div class="row">
                       <div class="col-md-3 p-2 shadow">
-                          <img src="../assets/img/blog/1.png" class="img-fluid" alt="">
+                          <img src="../assets/img/blog/1.png" class="img-fluid rounded" alt="">
                       </div>
                       <div class="col-md-3 p-2 shadow">
-                          <img src="../assets/img/blog/2.png" class="img-fluid" alt="">
+                          <img src="../assets/img/blog/2.png" class="img-fluid rounded" alt="">
                       </div>
                       <div class="col-md-3 p-2 shadow">
-                          <img src="../assets/img/blog/3.png" class="img-fluid" alt="">
+                          <img src="../assets/img/blog/3.png" class="img-fluid rounded" alt="">
                       </div>
                       <div class="col-md-3 p-2 shadow">
-                          <img src="../assets/img/blog/4.png" class="img-fluid" alt="">
+                          <img src="../assets/img/blog/4.png" class="img-fluid rounded" alt="">
                       </div>
                     </div>
                   </div>
