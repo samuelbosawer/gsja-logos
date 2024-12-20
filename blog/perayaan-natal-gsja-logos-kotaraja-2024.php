@@ -82,7 +82,7 @@
         <h1>Blog</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="./index">Beranda</a></li>
+            <li><a href="../index">Beranda</a></li>
             <li class="current">Blog</li>
           </ol>
         </nav>
