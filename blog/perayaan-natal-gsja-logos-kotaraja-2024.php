@@ -101,7 +101,7 @@
               <article class="article">
 
                 <div class="post-img text-center  mt-3">
-                  <img src="../assets/img/blog/blog-1.png" class="shadow rounded" alt="" class="" >
+                  <img src="../assets/img/blog/blog-1.png" class="shadow rounded" width="100%" alt="" class="" >
                 </div>
 
                 <h2 class="title">Perayaan Natal GSJA Logos Kotaraja 2024</h2>
