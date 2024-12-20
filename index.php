@@ -408,7 +408,7 @@ include 'format.php';
 
           <hr>
 
-          <a href="blog/perayaan-natal-gsja-logos-kotaraja-2024.php" class="readmore stretched-link"><span>Baca Selengkapnya</span><i class="bi bi-arrow-right"></i></a>
+          <a href="blog/perayaan-natal-gsja-logos-kotaraja-2024" class="readmore stretched-link"><span>Baca Selengkapnya</span><i class="bi bi-arrow-right"></i></a>
 
         </div>
 
