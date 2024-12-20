@@ -100,7 +100,7 @@
 
               <article class="article">
 
-                <div class="post-img text-center  mt-3">
+                <div class="post-img text-center">
                   <img src="../assets/img/blog/blog-1.png" class="shadow rounded" width="100%" alt="" class="" >
                 </div>
 
