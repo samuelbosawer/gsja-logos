@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Parayaan Natal GSJA Logos Kotaraja 2024</title>
+  <title>Perayaan Natal GSJA Logos Kotaraja 2024</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta property="og:locale" content="id_ID" />
   <meta property="og:type" content="website" />
