@@ -12,7 +12,7 @@
   <meta property="og:description" content="Perayaan Natal GSJA Logos Kotaraja 2024" />
   <meta property="og:url" content="https://gsjalogos.org" />
   <meta property="og:site_name" content="GSJA Logos Kotaraja" />
-  <meta property="og:image" content="https://gsjalogos.org/assets/img/logo.png" />
+  <meta property="og:image" content="https://gsjalogos.org/assets/img/blog/blog-1.png" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
