@@ -81,7 +81,7 @@ include 'format.php';
           <li><a href="#ibadah">IBADAH</a></li>
           <li><a href="#buletin">BULETIN</a></li>
           <li><a href="#kontak">KONTAK</a></li>
-          <li><a href="#blog">blog</a></li>
+          <li><a href="#blog">BLOG</a></li>
           <li><a href="galeri">GALERI</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>

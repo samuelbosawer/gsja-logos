@@ -54,7 +54,7 @@
 
       <a href="#" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img width="45" src="assets/img/logo.png" alt="">
+        <img width="45" src="../assets/img/logo.png" alt="">
         <h1 class="sitename">GSJA Logos Kotaraja</h1>
       </a>
 
