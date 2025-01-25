@@ -335,15 +335,15 @@ include 'format.php';
    
         <div class="container">
   
-          <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <div class="isotope-layout " data-default-filter="*" data-layout="masonry" data-sort="original-order">
   
         
   
-            <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="row  d-flex justify-content-center " data-aos="fade-up" data-aos-delay="200">
   
             <?php foreach ($result as $data): ?>
-    <div class="col-lg-3 col-md-3 portfolio-item isotope-item filter-remodeling border m-3">
-        <div class="portfolio-content h-100">
+    <div class="col-lg-3 col-md- portfolio-item isotope-item rounded  m-2 " >
+        <div class="portfolio-content h-100 shadow ">
             <!-- Menampilkan gambar dari data -->
             <img src="uploads/<?= htmlspecialchars($data['gambar']) ?>" class="img-fluid p-3" alt="Gambar Buletin">
             <p class="text-center">Buletin Edisi <?= format($data['tanggal']) ?></p>

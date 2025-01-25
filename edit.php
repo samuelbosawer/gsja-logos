@@ -14,6 +14,8 @@ $sql = "SELECT * FROM buletin WHERE id = $id";
 $result = mysqli_query($conn, $sql);
 $row = mysqli_fetch_assoc($result);
 
+var_dump($row);
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $tanggal = $_POST['tanggal'];
     $gambar = $row['gambar'];
